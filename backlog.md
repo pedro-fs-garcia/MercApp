@@ -43,24 +43,12 @@
 - Lista exibe produtos organizados por categorias.  
 - Busca retorna resultados em tempo real.  
 
-### **US04: Cadastro de Produtos (Admin)**  
-`Como administrador, eu quero cadastrar produtos no sistema, para mantê-los atualizados no aplicativo.`  
-
-**Tarefas:**  
-1. Criar painel administrativo (CRUD de produtos).  
-2. Implementar upload de imagens para produtos.  
-3. Validar campos obrigatórios (nome, preço, categoria).  
-
-**Critérios de Aceitação:**  
-- Admin pode adicionar/editar/excluir produtos.  
-- Campos inválidos exibem mensagens de erro.  
-
 ---
 
 ## **Sprint 2: Funcionalidades de Compra e Navegação**  
 **Objetivo:** Implementar carrinho, filtros e checkout.  
 
-### **US05: Adicionar Produtos ao Carrinho**  
+### **US04: Adicionar Produtos ao Carrinho**  
 `Como cliente, eu quero adicionar produtos ao carrinho de compras, para finalizar minha compra posteriormente`  
 
 **Tarefas:**  
@@ -71,7 +59,7 @@
 **Critérios de Aceitação:**  
 - Itens persistem no carrinho mesmo após fechar o app.  
 
-### **US06: Filtros e Ordenação**  
+### **US05: Filtros e Ordenação**  
 `Como cliente, eu quero filtrar produtos por categoria, preço ou promoções, para encontrar o que preciso mais rapidamente.`  
 **Tarefas:**  
 1. Implementar dropdown de filtros (categoria, preço).  
@@ -80,7 +68,7 @@
 **Critérios de Aceitação:**  
 - Filtros aplicados em tempo real.  
 
-### **US07: Finalização de Compra**  
+### **US06: Finalização de Compra**  
 `Como cliente, eu quero finalizar minha compra com opções de pagamento e entrega, para receber meus produtos em casa.`  
 
 **Tarefas:**  
@@ -95,7 +83,7 @@
 ## **Sprint 3: Personalização e Relacionamento**  
 **Objetivo:** Adicionar notificações, avaliações e fidelidade.  
 
-### **US08: Notificações Personalizadas**  
+### **US07: Notificações Personalizadas**  
 `Como cliente, eu quero receber notificações sobre promoções e ofertas personalizadas, para economizar em minhas compras.`  
 
 **Tarefas:**  
@@ -110,7 +98,7 @@
 
 ---
 
-### **US09: Avaliação do Aplicativo**  
+### **US08: Avaliação do Aplicativo**  
 `Como cliente, eu quero avaliar o aplicativo após a efetuação de um pedido.`  
 
 **Tarefas:**  
@@ -131,7 +119,7 @@
 
 ---
 
-### **US10: Integração com Estoque**  
+### **US09: Integração com Estoque**  
 `Como administrador, eu quero integrar o aplicativo com o sistema de estoque do supermercado, para garantir que os produtos estejam sempre atualizados.`  
 
 **Tarefas:**  
@@ -146,7 +134,7 @@
 
 ---
 
-### **US11: Relatórios de Vendas**  
+### **US10: Relatórios de Vendas**  
 `Como administrador, eu quero visualizar relatórios de vendas e desempenho do aplicativo.`  
 
 **Tarefas:**  
@@ -161,7 +149,7 @@
 
 ---
 
-### **US12: Campanhas Promocionais**  
+### **US11: Campanhas Promocionais**  
 `Como equipe de marketing, eu quero criar campanhas promocionais no aplicativo.`  
 
 **Tarefas:**  
@@ -185,7 +173,7 @@
 
 ---
 
-### **US14: Publicação nas Lojas**  
+### **US12: Publicação nas Lojas**  
 `Como administrador, eu quero publicar o aplicativo nas lojas oficiais.`  
 
 **Tarefas:**  
@@ -200,7 +188,7 @@
 - Notas médias acima de 4.2 estrelas na primeira semana  
 ----
 
-### **US15: Plano de Lançamento**  
+### **US13: Plano de Lançamento**  
 `Como equipe de marketing, eu quero executar o plano de lançamento.`  
 
 **Tarefas:**  
@@ -210,7 +198,7 @@
 
 ---
 
-### **US16: Feedback Pós-Lançamento**  
+### **US14: Feedback Pós-Lançamento**  
 `Como cliente, eu quero enviar feedback sobre minha experiência.`  
 
 **Tarefas:**  
